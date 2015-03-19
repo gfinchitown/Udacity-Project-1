@@ -1,0 +1,98 @@
+/*Universal Styles*/
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+
+/*Page Styles*/
+header {
+	text-align: center
+}
+
+h1 {
+	font-size: 3em;
+	color: #666;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.main-features {
+	margin-top: 30px;
+	border: 1px solid #ccc;
+}
+
+.main-features-heading {
+	padding: 5px 0px 5px 30px;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #f07c17;
+}
+
+ul {
+	padding: 15px 70px;
+}
+
+li {
+	line-height: 2em;
+}
+
+.description {
+	margin-top: -2px;
+}
+
+.first-para {
+	margin-top: 27px;
+	line-height: 2em;
+}
+
+.second-para {
+	margin-top: 12px;
+	line-height: 2em;
+}
+
+.third-para {
+	margin-top: 10px;
+	line-height: 2em;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 524px) {
+
+	h1 {
+		font-size: 2em;
+	}
+
+	.main-features {
+		border: none;
+	}
+
+	.first-para {
+		font-size: 0.90em;
+		line-height: 1.5em;
+	}
+
+	.second-para {
+		font-size: 0.90em;
+		line-height: 1.5em;
+	}
+
+	.third-para {
+		font-size: 0.90em;
+		line-height: 1.5em;
+	}
+}
+
+@media screen and (min-width: 525px) and (max-width: 992px){
+
+	.main-features {
+		border: none;
+		padding: 0;
+	}
+}

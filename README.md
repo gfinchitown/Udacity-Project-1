@@ -1,0 +1,3 @@
+This is Project 1 for the Udacity Front-end Developer Nanodegree.
+This project uses concepts taught in the Intro to HTML and CSS & Responsive Web Design Fundamentals Courses.
+The objective of the project is to create a responsive web page based upon a supplied mock-up (page-mock.png), which is in the project "images" folder. The final page is to be as close a replication of the mock-up when the window is sized at 1024px width. Project was graded and all metrics for the project were accomplished.
